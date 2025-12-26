@@ -1,0 +1,30 @@
+  .input-row {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 10px;
+  }
+
+
+  .input {
+      width: 90%;
+  }
+
+  .error {
+      position: relative;
+      margin-top: 5px;
+      font-size: 12px;
+      color: red;
+      margin-left: 15px !important;
+  }
+
+  .button {
+      width: 70%;
+      margin-left: 15% !important;
+  }
+
+  @media (min-width: 769px) {
+      .form-group {
+          min-width: calc(50% - 10px);
+      }
+  }

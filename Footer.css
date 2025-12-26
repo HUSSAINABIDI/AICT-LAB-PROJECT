@@ -1,0 +1,10 @@
+.Icon {
+    padding-left: 10px !important;
+    font-size: 40px !important;
+}
+
+.Icon:hover {
+    color: gold;
+    transition: 400ms;
+    transform: translateX(5px);
+}

@@ -1,0 +1,49 @@
+.home {
+    height: 70vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://img.freepik.com/free-photo/flat-lay-composition-mexican-food-with-copyspace_23-2148140300.jpg');
+    /* Path to your image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Ensures the image covers the entire div */
+    background-position: center;
+    /* Centers the image */
+}
+
+.home-Component {
+    margin-left: 10px;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.home-Component h1 {
+    margin-bottom: 35px;
+}
+
+.para {
+    color: white;
+    font-size: 30px;
+}
+
+.btn {
+    top: 15px;
+    color: white !important;
+}
+
+@media only screen and (max-width: 320px) {
+    .h1 {
+        font-size: 40px !important;
+    }
+
+    .para {
+        font-size: 25px;
+        top: -20px;
+    }
+
+    .btn {
+        width: 145px;
+    }
+}
